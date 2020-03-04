@@ -13,9 +13,9 @@ const App = () => {
           <Route path="/login">
             <Login />
           </Route>
-          <React path="/services">
+          <Route path="/services">
             <Services />
-          </React>
+          </Route>
           <Route path="/support">
             <Support />
           </Route>
