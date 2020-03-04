@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
-import Support from "./View/Support";
+import Support from "./views/Support";
 const App = () => {
   return (
     <div>
