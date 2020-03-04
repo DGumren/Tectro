@@ -1,6 +1,6 @@
 import React from "react";
-const App = () => {
+const Support = () => {
   return <div></div>;
 };
 
-export default App;
+export default Support;
