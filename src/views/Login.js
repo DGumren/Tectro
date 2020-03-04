@@ -1,22 +1,12 @@
 import React from "react";
+import Box from "../components/Box";
+import Navbar from "../components/Navbar";
 
 const Login = () => {
   return (
     <div>
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">Navbar</a>
-        <form class="form-inline">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-      </nav>
+      <Navbar />
+      <Box />
     </div>
   );
 };
