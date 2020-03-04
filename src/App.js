@@ -4,10 +4,12 @@ import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
 import Support from "./views/Support";
 import Login from "./views/Login";
 import Services from "./views/Services";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div>
+      <Navbar />
       <BrowserRouter>
         <Switch>
           <Route path="/login">
