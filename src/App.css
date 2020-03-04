@@ -1,3 +1,9 @@
-.email {
-  margin-top: 200px;
+html,
+body {
+  background-image: url(https://wallpapercave.com/wp/wp4585515.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
