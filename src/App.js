@@ -5,6 +5,7 @@ import Support from "./views/Support";
 import Login from "./views/Login";
 import Services from "./views/Services";
 import Navbar from "./components/Navbar";
+import "../src/App.css";
 
 const App = () => {
   return (
