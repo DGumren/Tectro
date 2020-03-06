@@ -1,6 +1,8 @@
 import React from "react";
 import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
 
+import "./App.css";
+
 import Support from "./views/Support";
 import Login from "./views/Login";
 import Services from "./views/Services";

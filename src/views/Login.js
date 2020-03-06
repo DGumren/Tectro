@@ -1,11 +1,11 @@
 import React from "react";
-import Box from "../components/Box";
+import LoginForm from "../components/LoginForm";
 import Navbar from "../components/Navbar";
 
 const Login = () => {
   return (
     <div>
-      <Box />
+      <LoginForm />
     </div>
   );
 };
