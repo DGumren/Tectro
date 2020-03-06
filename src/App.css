@@ -7,7 +7,11 @@ body {
   background-size: cover;
   background-color: #464646;
 }
+<<<<<<< HEAD
 .text .voffset {
+=======
+.voffset {
+>>>>>>> 45728fc98fd475be84bac1544ba864150875182f
   margin-top: 2px;
 }
 .voffset1 {
