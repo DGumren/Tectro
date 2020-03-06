@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Box = () => {
   return (
     <div>
-      <div className=" email container ">
+      <div className="container mt-5">
         <form>
           <div className="form-group">
             <label for="exampleInputEmail1">Email address</label>
