@@ -1,11 +1,13 @@
 import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-          Navbar
+          Tectro
         </a>
         <button
           class="navbar-toggler"
@@ -26,11 +28,15 @@ const Navbar = () => {
                 Home <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Link
-              </a>
-            </li>
+            <BrowserRouter>
+              <Link to="/services#">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Services
+                  </a>
+                </li>
+              </Link>
+            </BrowserRouter>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -41,43 +47,41 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown
+                Business Solution
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">
-                  Action
+                  Network Assessment
                 </a>
                 <a class="dropdown-item" href="#">
-                  Another action
+                  Anti-Virus
                 </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
-                  Something else here
+                  Data Storage
                 </a>
               </div>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                Disabled
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                Pricing
               </a>
             </li>
+            <BrowserRouter>
+              <Link to="/login#">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                  >
+                    Log In
+                  </a>
+                </li>
+              </Link>
+            </BrowserRouter>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            ></input>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </nav>
     </div>

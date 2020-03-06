@@ -7,3 +7,11 @@ body {
   background-size: cover;
   background-color: #464646;
 }
+
+#footer-bottom {
+  position: fixed;
+  /* height: 20rem; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
