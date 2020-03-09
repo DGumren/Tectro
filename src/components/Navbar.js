@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Link } from "react-router-dom";
-
 const Navbar = () => {
   return (
     <div>

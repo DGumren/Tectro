@@ -7,13 +7,7 @@ body {
   background-size: cover;
   background-color: #464646;
 }
-.footer-bottom {
-  position: absolute;
-  bottom: 1px;
-  width: 100%;
-  border: 3px solid palevioletred;
-}
-.voffset {
+.text .voffset {
   margin-top: 2px;
 }
 .voffset1 {
@@ -42,4 +36,15 @@ body {
 }
 .voffset9 {
   margin-top: 150px;
+}
+h1 {
+  color: aliceblue;
+  font-size: larger;
+}
+.row {
+  padding-top: 100px;
+}
+body,
+html {
+  height: 100%;
 }

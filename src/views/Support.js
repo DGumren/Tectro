@@ -1,40 +1,41 @@
 import React from "react";
+
 const Support = () => {
   return (
-    <div class="container">
-      <form class="well span8" role="form">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="form-group">
-              <label>First Name</label>
+    <div className="container">
+      <form className="well span8" role="form">
+        <div className="row">
+          <div className="col-md-7">
+            <div className="form-group">
+              <h1>First Name</h1>
               <input
-                class="form-control"
+                className="form-control"
                 placeholder="Your First Name"
                 type="text"
               />
             </div>
 
-            <div class="form-group">
-              <label>Last Name</label>
+            <div className="form-group">
+              <h1>Last Name</h1>
               <input
-                class="form-control"
+                className="form-control"
                 placeholder="Your Last Name"
                 type="text"
               />
             </div>
 
-            <div class="form-group">
-              <label>Email Address</label>
+            <div className="form-group">
+              <h1>Email Address</h1>
               <input
-                class="form-control"
+                className="form-control"
                 placeholder="Your email address"
                 type="text"
               />
             </div>
 
-            <div class="form-group">
-              <label>Subject</label>
-              <select class="form-control" id="subject" name="subject">
+            <div className="form-group">
+              <h1>Subject</h1>
+              <select className="form-control" id="subject" name="subject">
                 <option selected value="na">
                   Choose One:
                 </option>
@@ -48,17 +49,21 @@ const Support = () => {
             </div>
           </div>
 
-          <div class="col-md-8">
-            <label>Message</label>
-            <textarea class="form-control" rows="10"></textarea>
+          <div className="col-md-8">
+            <h1>Message</h1>
+            <textarea className="form-control" rows="10"></textarea>
 
-            <button class="btn btn-primary pull-right voffset3" type="submit">
+            <button
+              className="btn btn-primary pull-right voffset3"
+              type="submit"
+            >
               Send
             </button>
           </div>
         </div>
       </form>
     </div>
+    
   );
 };
 
