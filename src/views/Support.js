@@ -63,6 +63,7 @@ const Support = () => {
         </div>
       </form>
     </div>
+    
   );
 };
 
