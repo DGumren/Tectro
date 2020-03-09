@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-dark" id="footer-bottom">
+    <div className=" footer-bottom bg-dark" id="footer-bottom">
       <div className="container clearfix  text-white">
         <h5>
           Tectro<i class="fab fa-facebook-square"></i>

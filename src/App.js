@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "./App.css";
 
@@ -12,12 +12,15 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Switch>
-          <Route exact path="/services" component={Services} />
+          <Route path="/services" component={Services} />
           <Route path="/login" component={Login} />
           <Route path="/support" component={Support} />
+          <Route exact path="/">
+            <Redirect to="/login"></Redirect>
+          </Route>
         </Switch>
       </BrowserRouter>
       <Footer />
