@@ -1,8 +1,5 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-
-import "./App.css";
-
 import Support from "./views/Support";
 import Login from "./views/Login";
 import Services from "./views/Services";

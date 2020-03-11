@@ -23,21 +23,21 @@ const Navbar = () => {
             aria-haspopup="true"
             aria-expanded="false"
           >
-            Favorites
+            Links
           </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">
-              Action
+              Login
             </a>
             <a class="dropdown-item" href="#">
-              Another action
+              Services
             </a>
             <a class="dropdown-item" href="#">
-              Something else here
+              Support
             </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
-              Separated link
+              Home
             </a>
           </div>
         </div>

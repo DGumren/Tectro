@@ -6,8 +6,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
+  height: 1100px;
 }
-.voffset {
+.text .voffset {
   margin-top: 2px;
 }
 .voffset1 {
@@ -40,4 +41,43 @@ body {
 .btn-group {
   margin-left: 900px;
   width: 130px;
+}
+
+.footer-copyright {
+  padding-top: 3rem;
+  color: white;
+}
+.fab {
+  width: 20px;
+  font-size: 20px;
+}
+.carousel-inner {
+  width: auto;
+  height: 500px;
+}
+.row {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+}
+.card {
+  width: 279px;
+  height: 330px;
+}
+.navbar {
+  width: auto;
+}
+.row1 {
+  margin-bottom: 400px;
+}
+.btn-primary {
+  margin-bottom: 30px;
+}
+.card-img-top {
+  height: 180px;
+}
+.box1 {
+  background-color: rgba(238, 130, 238, 0.493);
+}
+.card-body {
+  background-color: black;
 }
