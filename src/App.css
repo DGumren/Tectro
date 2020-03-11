@@ -41,17 +41,18 @@ h1 {
   color: aliceblue;
   font-size: larger;
 }
-.row{ 
-  padding-top: 100px;
+.row {
+  padding-top: 200px;
 }
-body, html {
-  height: 100%;
+body,
+html {
+  height: 200%;
 }
-.col-md-7{
+.col-md-7 {
   background-color: rgba(187, 99, 209, 0.349);
-  border-radius: 20px;
+  border-radius: auto;
 }
-.col-md-8{
+.col-md-8 {
   background-color: rgba(238, 130, 238, 0.493);
-  border-radius: 20px;
+  border-radius: auto;
 }

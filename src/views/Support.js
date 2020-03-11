@@ -2,7 +2,6 @@ import React from "react";
 
 const Support = () => {
   return (
-    
     <div className="container">
       <form className="well span8" role="form">
         <div className="row">
@@ -48,6 +47,7 @@ const Support = () => {
               </select>
             </div>
           </div>
+          <div></div>
 
           <div className="col-md-8">
             <h1>Message</h1>
@@ -63,7 +63,6 @@ const Support = () => {
         </div>
       </form>
     </div>
-    
   );
 };
 
