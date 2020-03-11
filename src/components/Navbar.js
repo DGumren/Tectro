@@ -27,15 +27,23 @@ const Navbar = () => {
                 Home <span class="sr-only">(current)</span>
               </a>
             </li>
-            <BrowserRouter>
-              <Link to="/services#">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Services
-                  </a>
-                </li>
-              </Link>
-            </BrowserRouter>
+
+            <Link to="/services#">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Services
+                </a>
+              </li>
+            </Link>
+
+            <Link to="/support#">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Support
+                </a>
+              </li>
+            </Link>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -55,31 +63,19 @@ const Navbar = () => {
                 <a class="dropdown-item" href="#">
                 Message Boards
                 </a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
                   Contact Us 
                 </a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
-                Pricing
-              </a>
-            </li>
-            <BrowserRouter>
-              <Link to="/login#">
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="#"
-                    tabindex="-1"
-                    aria-disabled="true"
-                  >
-                    Log In
-                  </a>
-                </li>
-              </Link>
-            </BrowserRouter>
+
+            <Link to="/login#">
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                  Login
+                </a>
+              </li>
+            </Link>
           </ul>
         </div>
       </nav>
