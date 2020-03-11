@@ -2,6 +2,7 @@ import React from "react";
 
 const Support = () => {
   return (
+    
     <div className="container">
       <form className="well span8" role="form">
         <div className="row">
@@ -14,7 +15,6 @@ const Support = () => {
                 type="text"
               />
             </div>
-
             <div className="form-group">
               <h1>Last Name</h1>
               <input

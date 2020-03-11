@@ -50,14 +50,14 @@ const Navbar = () => {
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">
-                  Network Assessment
+                 Support
                 </a>
                 <a class="dropdown-item" href="#">
-                  Anti-Virus
+                Message Boards
                 </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
-                  Data Storage
+                  Contact Us 
                 </a>
               </div>
             </li>
