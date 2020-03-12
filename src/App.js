@@ -10,13 +10,14 @@ import "../src/App.css";
 const App = () => {
   return (
     <div>
-      <Navbar />
       <BrowserRouter>
-      
+        <Navbar />
         <Switch>
-          <Route exact path="/services" component={Services} />
+          <Route path="/services" component={Services} />
           <Route path="/login" component={Login} />
           <Route path="/support" component={Support} />
+          <Route exact path="/">
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>

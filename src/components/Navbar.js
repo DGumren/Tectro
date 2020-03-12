@@ -1,5 +1,4 @@
 import React from "react";
-
 import TECTRO from "../assets/TECTRO.png";
 
 const Navbar = () => {
@@ -15,31 +14,51 @@ const Navbar = () => {
           />
         </form>
 
-        <div class="btn-group">
-          <button
-            type="button"
-            class="btn btn-secondary  dropdown-toggle"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Links
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">
-              Login
-            </a>
-            <a class="dropdown-item" href="#">
-              Services
-            </a>
-            <a class="dropdown-item" href="#">
-              Support
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              Home
-            </a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+
+            <Link to="/services#">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Services
+                </a>
+              </li>
+            </Link>
+
+            <Link to="/support#">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Support
+                </a>
+              </li>
+            </Link>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              ></a>
+              <div></div>
+            </li>
+
+            <Link to="/login#">
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                  Login
+                </a>
+              </li>
+            </Link>
+          </ul>
         </div>
         <form class="form-inline">
           <input
