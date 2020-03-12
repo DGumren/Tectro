@@ -53,20 +53,8 @@ const Navbar = () => {
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-              >
-                Business Solution
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">
-                 Support
-                </a>
-                <a class="dropdown-item" href="#">
-                Message Boards
-                </a>
-                <a class="dropdown-item" href="#">
-                  Contact Us 
-                </a>
-              </div>
+              ></a>
+              <div></div>
             </li>
 
             <Link to="/login#">
