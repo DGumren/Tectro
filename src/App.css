@@ -7,6 +7,9 @@ body {
   background-size: cover;
   background-color: #464646;
 }
+.row1 {
+  margin-bottom: 533px;
+}
 .text .voffset {
   margin-top: 2px;
 }
