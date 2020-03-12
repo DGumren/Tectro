@@ -32,7 +32,7 @@ const LoginForm = () => {
   };
 
   return (
-    <div>
+    <div className="container bg.primary">
       <div className="container mt-5">
         <form onSubmit={formOnSubmitHandler}>
           <div className="form-group text-white">

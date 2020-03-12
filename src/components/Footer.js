@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <div className="row1" />
-      <footer className="page-footer font-small bg-transparent">
+      <footer className="page-footer font-small bg-dark">
         <div className="footer-copyright text-center py-3">
           © 2020 Copyright:
           <i class="fab fa-facebook-square"></i>

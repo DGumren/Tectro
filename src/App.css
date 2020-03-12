@@ -8,6 +8,9 @@ body {
   background-color: #464646;
   height: 1100px;
 }
+.row1 {
+  margin-bottom: 533px;
+}
 .text .voffset {
   margin-top: 2px;
 }
