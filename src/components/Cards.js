@@ -7,7 +7,7 @@ const Cards = props => {
       <div class="card mr-3 ml-4 mb-4 m-4 d-flex justify-content-around">
         <img src={props.img} class="card-img-top" alt="This is an img" />
         <div class="card-body">
-          <h5 class={props.h5}>Dell</h5>
+  <h5 class="Name">{props.name}</h5>
           <p class="card-text">Sub-Title</p>
           <div class="d-flex justify-content-between">
             <a class="btn btn-primary" href="...">
