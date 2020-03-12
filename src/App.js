@@ -15,7 +15,6 @@ const App = () => {
           <Route path="/login" component={Login} />
           <Route path="/support" component={Support} />
           <Route exact path="/">
-            <Redirect to="/login"></Redirect>
           </Route>
         </Switch>
       </BrowserRouter>

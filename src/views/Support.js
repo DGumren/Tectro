@@ -14,7 +14,6 @@ const Support = () => {
                 type="text"
               />
             </div>
-
             <div className="form-group">
               <h1>Last Name</h1>
               <input
@@ -48,6 +47,7 @@ const Support = () => {
               </select>
             </div>
           </div>
+          <div></div>
 
           <div className="col-md-8">
             <h1>Message</h1>
