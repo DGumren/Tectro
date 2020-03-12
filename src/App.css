@@ -54,7 +54,7 @@ body {
   width: 20px;
   font-size: 20px;
 }
-.carousel-inner {
+.carousel-item {
   width: auto;
   height: 500px;
 }
@@ -83,4 +83,10 @@ body {
 }
 .card-body {
   background-color: black;
+}
+h5 {
+  color: white;
+}
+.card-text {
+  color: white;
 }

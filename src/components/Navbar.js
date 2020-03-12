@@ -5,9 +5,12 @@ const Navbar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-          Tectro
-        </a>
+        <Link to="/services">
+          <a class="navbar-brand" href="#">
+            Tectro
+          </a>
+        </Link>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -23,13 +26,13 @@ const Navbar = () => {
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
+                <span class="sr-only">(current)</span>
               </a>
             </li>
             <Link to="/services#">
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Services
+                  Home
                 </a>
               </li>
             </Link>
@@ -42,7 +45,6 @@ const Navbar = () => {
             </Link>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
